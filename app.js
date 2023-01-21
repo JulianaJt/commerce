@@ -20,5 +20,8 @@ app.use(express.json()); // utilizar el mtodo post
 //---app.use(cookieParser());
 
 //---------------------------------------------------------------------------------
+app.get('/mostrar_mensaje', (req,res) =>{
+    res.sendFile(path.resolve(__dirname, './views/home.ejs')); // Permite enviar un archivo HTML
+    });
 const port = process.env.PORT || 3001;
 app.listen(port, () => console.log("Servidor corriendo en el puerto "));
