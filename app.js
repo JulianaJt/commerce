@@ -25,3 +25,6 @@ app.get('/mostrar_mensaje', (req,res) =>{
     });
 const port = process.env.PORT || 3001;
 app.listen(port, () => console.log("Servidor corriendo en el puerto "));
+
+
+module.exports = app
