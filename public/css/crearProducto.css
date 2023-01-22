@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FA8072;
+    border-radius: 8px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .encabezado h3{
+    font-weight: 600;
+    font-size: 34px;  
+  }
+  /* BASIC */
+  .entradas{
+    text-align:center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 50px 50px 50px 50px;
+  }
+  .form-input{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+  }
+   .boton{
+    margin-top: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    width: 400px;
+    height: 40px;
+  }
+  .boton:hover{
+    background-color: black;
+    color: white;
+  }
+  .box-boton{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .detail-product{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-rows: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+  }
